@@ -1,0 +1,32 @@
+.profileCard {
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: #fafafa;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.profileCard p {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.profileCardImage {
+  width: 200px;
+}
+
+.infoList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border-top: 2px solid black;
+  margin: 0;
+}
+
+.infoList li {
+  display: flex;
+  flex-direction: column;
+  background-color: #d3d3d3;
+  width: 33%;
+}

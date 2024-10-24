@@ -1,0 +1,15 @@
+.table {
+  border: 1px solid black;
+  width: 600px;
+  margin: 0 auto;
+  text-transform: capitalize;
+}
+
+.thead {
+  background-color: black;
+  color: white;
+}
+
+.transactionTr:nth-child(even) {
+  background-color: #d3d3d3;
+}

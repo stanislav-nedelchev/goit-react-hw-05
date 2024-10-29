@@ -1,0 +1,30 @@
+.movieList {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  row-gap: 30px;
+  column-gap: 20px;
+  padding: 0;
+}
+
+.movieListItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  height: 435px;
+  color: rgb(38, 19, 49);
+}
+
+.movieListItemTitle {
+  font-size: 20px;
+  margin: auto;
+}
+
+.movieListItemImg {
+  width: 100%;
+  display: block;
+}

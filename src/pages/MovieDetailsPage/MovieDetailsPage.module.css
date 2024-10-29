@@ -1,0 +1,41 @@
+.movieDetailsPageBox {
+  margin-top: 70px;
+  padding-left: 70px;
+  color: rgb(38, 19, 49);
+}
+
+.movieInfo {
+  display: flex;
+  gap: 30px;
+}
+
+.goBack {
+  display: block;
+  background-color: rgb(38, 19, 49);
+  color: white;
+  border-radius: 20px;
+  padding: 6px 30px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(38, 19, 49);
+  width: 60px;
+  margin: 0 auto 10px;
+}
+
+.goBack:hover {
+  color: rgb(38, 19, 49);
+  background-color: white;
+}
+
+.movieTitle {
+  text-align: center;
+}
+
+.movieAdditInfo {
+  display: flex;
+  align-items: baseline;
+}
+
+.movieAdditInfoLink {
+  display: block;
+  margin-left: 20px;
+}

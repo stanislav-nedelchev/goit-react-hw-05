@@ -1,0 +1,21 @@
+.header {
+  position: absolute;
+  top: 0;
+  background-color: rgb(38, 19, 49);
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.link {
+  display: inline-block;
+}
+
+.active {
+  color: red;
+  font-weight: 700;
+  font-size: 20px;
+}

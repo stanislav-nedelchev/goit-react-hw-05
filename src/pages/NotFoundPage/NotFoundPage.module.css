@@ -1,0 +1,20 @@
+.notFoundPage {
+  margin-top: 70px;
+  padding-left: 70px;
+}
+
+.homePageLink {
+  display: block;
+  background-color: rgb(38, 19, 49);
+  color: white;
+  border-radius: 20px;
+  padding: 6px 30px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(38, 19, 49);
+  width: 90px;
+}
+
+.homePageLink:hover {
+  color: rgb(38, 19, 49);
+  background-color: white;
+}
